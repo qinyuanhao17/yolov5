@@ -1,0 +1,12 @@
+train: ../myDataSet20230716/images/train  # train images (relative to 'path') 128 images
+val: ../myDataSet20230716/images/dev  # val images (relative to 'path') 128 images
+
+nc: 2
+names: ['cross', 'gaussian spot']
+
+roboflow:
+  workspace: university-of-chinese-academy-of-siences
+  project: pl-locating
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/university-of-chinese-academy-of-siences/pl-locating/dataset/3
